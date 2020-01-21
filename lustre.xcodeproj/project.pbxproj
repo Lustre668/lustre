@@ -15,6 +15,11 @@
 		B211734323D4F85B00C0EA46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B211734123D4F85B00C0EA46 /* LaunchScreen.storyboard */; };
 		B211734E23D4F85B00C0EA46 /* lustreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B211734D23D4F85B00C0EA46 /* lustreTests.swift */; };
 		B211735923D4F85B00C0EA46 /* lustreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B211735823D4F85B00C0EA46 /* lustreUITests.swift */; };
+		B243DBDA23D6268400057C4F /* REGISTER2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243DBD923D6268400057C4F /* REGISTER2ViewController.swift */; };
+		B243DBDC23D6324000057C4F /* REGISTER3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243DBDB23D6324000057C4F /* REGISTER3.swift */; };
+		B243DBDE23D64ACA00057C4F /* LogInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243DBDD23D64ACA00057C4F /* LogInPage.swift */; };
+		B243DBE023D6C2A700057C4F /* ConformedPasswordPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243DBDF23D6C2A700057C4F /* ConformedPasswordPage.swift */; };
+		B243DBE223D6C46500057C4F /* AddChildPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243DBE123D6C46500057C4F /* AddChildPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		B211735423D4F85B00C0EA46 /* lustreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lustreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B211735823D4F85B00C0EA46 /* lustreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lustreUITests.swift; sourceTree = "<group>"; };
 		B211735A23D4F85B00C0EA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B243DBD923D6268400057C4F /* REGISTER2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REGISTER2ViewController.swift; sourceTree = "<group>"; };
+		B243DBDB23D6324000057C4F /* REGISTER3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REGISTER3.swift; sourceTree = "<group>"; };
+		B243DBDD23D64ACA00057C4F /* LogInPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPage.swift; sourceTree = "<group>"; };
+		B243DBDF23D6C2A700057C4F /* ConformedPasswordPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConformedPasswordPage.swift; sourceTree = "<group>"; };
+		B243DBE123D6C46500057C4F /* AddChildPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChildPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				B211733823D4F85A00C0EA46 /* SceneDelegate.swift */,
 				B211733A23D4F85A00C0EA46 /* ViewController.swift */,
 				B211733C23D4F85A00C0EA46 /* Main.storyboard */,
+				B243DBE123D6C46500057C4F /* AddChildPage.swift */,
+				B243DBDD23D64ACA00057C4F /* LogInPage.swift */,
+				B243DBDF23D6C2A700057C4F /* ConformedPasswordPage.swift */,
+				B243DBDB23D6324000057C4F /* REGISTER3.swift */,
+				B243DBD923D6268400057C4F /* REGISTER2ViewController.swift */,
 				B211733F23D4F85B00C0EA46 /* Assets.xcassets */,
 				B211734123D4F85B00C0EA46 /* LaunchScreen.storyboard */,
 				B211734423D4F85B00C0EA46 /* Info.plist */,
@@ -260,8 +275,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B211733B23D4F85A00C0EA46 /* ViewController.swift in Sources */,
+				B243DBE023D6C2A700057C4F /* ConformedPasswordPage.swift in Sources */,
+				B243DBDA23D6268400057C4F /* REGISTER2ViewController.swift in Sources */,
 				B211733723D4F85A00C0EA46 /* AppDelegate.swift in Sources */,
 				B211733923D4F85A00C0EA46 /* SceneDelegate.swift in Sources */,
+				B243DBDE23D64ACA00057C4F /* LogInPage.swift in Sources */,
+				B243DBDC23D6324000057C4F /* REGISTER3.swift in Sources */,
+				B243DBE223D6C46500057C4F /* AddChildPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

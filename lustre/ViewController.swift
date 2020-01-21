@@ -14,6 +14,10 @@ class ViewController:
 UIViewController {
 
     
+    @IBAction func NextToReg2(_ sender: UIButton) {
+        
+        
+    }
     
     
     override func viewDidLoad() {
