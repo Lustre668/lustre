@@ -10,6 +10,15 @@ import UIKit
 
 class ConformedPasswordPage: UIViewController {
 
+    @IBOutlet weak var Password: UITextField!
+    
+    @IBOutlet weak var ConformedPassword: UITextField!
+    
+    @IBOutlet weak var AddChildrenButton: UIButton!
+    
+    
+    @IBOutlet weak var NextPage: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

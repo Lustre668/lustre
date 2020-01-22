@@ -1,16 +1,25 @@
 //
-//  REGISTER2ViewController.swift
+//  REGISTER2.swift
 //  lustre
 //
-//  Created by Shahad X on 25/05/1441 AH.
+//  Created by Shahad X on 27/05/1441 AH.
 //  Copyright © 1441 Shahad X. All rights reserved.
 //
 
 import UIKit
 
-class REGISTER2ViewController: UIViewController {
+class REGISTER2: UIViewController {
 
-    @IBOutlet weak var NextToRegister3: UIButton!
+    @IBOutlet weak var LastNAme: UITextField!
+    @IBOutlet weak var FirstName: UITextField!
+    
+    
+    @IBOutlet weak var UserName: UITextField!
+    
+    @IBOutlet weak var Gender: UITextField!
+    
+    
+    @IBOutlet weak var NextPage: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()

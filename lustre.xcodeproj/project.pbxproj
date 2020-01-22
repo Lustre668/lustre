@@ -9,13 +9,12 @@
 /* Begin PBXBuildFile section */
 		B211733723D4F85A00C0EA46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B211733623D4F85A00C0EA46 /* AppDelegate.swift */; };
 		B211733923D4F85A00C0EA46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B211733823D4F85A00C0EA46 /* SceneDelegate.swift */; };
-		B211733B23D4F85A00C0EA46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B211733A23D4F85A00C0EA46 /* ViewController.swift */; };
 		B211733E23D4F85A00C0EA46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B211733C23D4F85A00C0EA46 /* Main.storyboard */; };
 		B211734023D4F85B00C0EA46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B211733F23D4F85B00C0EA46 /* Assets.xcassets */; };
 		B211734323D4F85B00C0EA46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B211734123D4F85B00C0EA46 /* LaunchScreen.storyboard */; };
 		B211734E23D4F85B00C0EA46 /* lustreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B211734D23D4F85B00C0EA46 /* lustreTests.swift */; };
 		B211735923D4F85B00C0EA46 /* lustreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B211735823D4F85B00C0EA46 /* lustreUITests.swift */; };
-		B243DBDA23D6268400057C4F /* REGISTER2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243DBD923D6268400057C4F /* REGISTER2ViewController.swift */; };
+		B23493A523D84C6700220230 /* REGISTER2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23493A423D84C6700220230 /* REGISTER2.swift */; };
 		B243DBDC23D6324000057C4F /* REGISTER3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243DBDB23D6324000057C4F /* REGISTER3.swift */; };
 		B243DBDE23D64ACA00057C4F /* LogInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243DBDD23D64ACA00057C4F /* LogInPage.swift */; };
 		B243DBE023D6C2A700057C4F /* ConformedPasswordPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243DBDF23D6C2A700057C4F /* ConformedPasswordPage.swift */; };
@@ -45,7 +44,6 @@
 		B211733323D4F85A00C0EA46 /* shahad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shahad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B211733623D4F85A00C0EA46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B211733823D4F85A00C0EA46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B211733A23D4F85A00C0EA46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B211733D23D4F85A00C0EA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B211733F23D4F85B00C0EA46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B211734223D4F85B00C0EA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,7 +54,7 @@
 		B211735423D4F85B00C0EA46 /* lustreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lustreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B211735823D4F85B00C0EA46 /* lustreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lustreUITests.swift; sourceTree = "<group>"; };
 		B211735A23D4F85B00C0EA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B243DBD923D6268400057C4F /* REGISTER2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REGISTER2ViewController.swift; sourceTree = "<group>"; };
+		B23493A423D84C6700220230 /* REGISTER2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REGISTER2.swift; sourceTree = "<group>"; };
 		B243DBDB23D6324000057C4F /* REGISTER3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REGISTER3.swift; sourceTree = "<group>"; };
 		B243DBDD23D64ACA00057C4F /* LogInPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPage.swift; sourceTree = "<group>"; };
 		B243DBDF23D6C2A700057C4F /* ConformedPasswordPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConformedPasswordPage.swift; sourceTree = "<group>"; };
@@ -115,13 +113,12 @@
 			children = (
 				B211733623D4F85A00C0EA46 /* AppDelegate.swift */,
 				B211733823D4F85A00C0EA46 /* SceneDelegate.swift */,
-				B211733A23D4F85A00C0EA46 /* ViewController.swift */,
 				B211733C23D4F85A00C0EA46 /* Main.storyboard */,
+				B23493A423D84C6700220230 /* REGISTER2.swift */,
 				B243DBE123D6C46500057C4F /* AddChildPage.swift */,
 				B243DBDD23D64ACA00057C4F /* LogInPage.swift */,
 				B243DBDF23D6C2A700057C4F /* ConformedPasswordPage.swift */,
 				B243DBDB23D6324000057C4F /* REGISTER3.swift */,
-				B243DBD923D6268400057C4F /* REGISTER2ViewController.swift */,
 				B211733F23D4F85B00C0EA46 /* Assets.xcassets */,
 				B211734123D4F85B00C0EA46 /* LaunchScreen.storyboard */,
 				B211734423D4F85B00C0EA46 /* Info.plist */,
@@ -280,10 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B211733B23D4F85A00C0EA46 /* ViewController.swift in Sources */,
 				B243DBE023D6C2A700057C4F /* ConformedPasswordPage.swift in Sources */,
-				B243DBDA23D6268400057C4F /* REGISTER2ViewController.swift in Sources */,
 				D27CFC4823D7412700C67298 /* ProfileChildren.swift in Sources */,
+				B23493A523D84C6700220230 /* REGISTER2.swift in Sources */,
 				B211733723D4F85A00C0EA46 /* AppDelegate.swift in Sources */,
 				B211733923D4F85A00C0EA46 /* SceneDelegate.swift in Sources */,
 				D27CFC4A23D781DF00C67298 /* CurrentMyProgram.swift in Sources */,

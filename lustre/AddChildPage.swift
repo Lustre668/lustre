@@ -9,7 +9,21 @@
 import UIKit
 
 class AddChildPage: UIViewController {
-
+    
+    
+    @IBOutlet weak var NameChild: UITextField!
+    
+    
+    @IBOutlet weak var BirthDateChild: UITextField!
+    
+    
+    @IBOutlet weak var GenderChild: UITextField!
+    
+    
+    @IBOutlet weak var AddChildButton: UIButton!
+    
+    @IBOutlet weak var NextChildButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

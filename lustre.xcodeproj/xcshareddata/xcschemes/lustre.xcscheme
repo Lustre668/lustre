@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B211733223D4F85A00C0EA46"
-               BuildableName = "lustre.app"
+               BuildableName = "shahad.app"
                BlueprintName = "lustre"
                ReferencedContainer = "container:lustre.xcodeproj">
             </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B211733223D4F85A00C0EA46"
-            BuildableName = "lustre.app"
+            BuildableName = "shahad.app"
             BlueprintName = "lustre"
             ReferencedContainer = "container:lustre.xcodeproj">
          </BuildableReference>
@@ -82,7 +82,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B211733223D4F85A00C0EA46"
-            BuildableName = "lustre.app"
+            BuildableName = "shahad.app"
             BlueprintName = "lustre"
             ReferencedContainer = "container:lustre.xcodeproj">
          </BuildableReference>

@@ -15,7 +15,8 @@ class REGISTER3: UIViewController {
       @IBOutlet weak var EmailField: UITextField!
       @IBOutlet weak var InputTextField: UITextField!
       
-      private var datePicker : UIDatePicker?
+    @IBOutlet weak var NextPage: UIButton!
+    private var datePicker : UIDatePicker?
       
       
       override func viewDidLoad() {
