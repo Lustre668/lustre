@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GNf-GL-Qs6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="lustre" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="shahad" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -30,21 +30,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LXj-kq-8hc">
-                                <rect key="frame" x="69" y="544" width="246" height="7"/>
-                                <color key="backgroundColor" red="0.63188564780000001" green="0.79320877789999999" blue="0.70979517700000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="NEXT">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" red="0.63188564780000001" green="0.79320877789999999" blue="0.70979517700000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <action selector="NextToReg2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oix-dB-74p"/>
-                                    <segue destination="hjG-SI-jgN" kind="show" id="nrR-uy-4mD"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" enabled="NO" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" borderStyle="roundedRect" placeholder="First Name " textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" id="uq5-rm-VID">
                                 <rect key="frame" x="20" y="333" width="182" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -77,18 +62,25 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LXj-kq-8hc">
+                                <rect key="frame" x="69" y="559" width="246" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.63188564780000001" green="0.79320877789999999" blue="0.70979517700000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="0.63188564780000001" green="0.79320877789999999" blue="0.70979517700000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="NextToReg2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oix-dB-74p"/>
+                                    <segue destination="hjG-SI-jgN" kind="show" id="nrR-uy-4mD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <color key="tintColor" red="0.63188564780000001" green="0.79320877789999999" blue="0.70979517700000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <constraints>
-                            <constraint firstItem="LXj-kq-8hc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="69" id="AkT-q2-649"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LXj-kq-8hc" secondAttribute="bottom" constant="311" id="Bl8-X9-GDN"/>
-                            <constraint firstItem="LXj-kq-8hc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="99" id="DJ4-SX-n0b"/>
-                            <constraint firstItem="LXj-kq-8hc" firstAttribute="top" secondItem="B8o-jN-dkm" secondAttribute="bottom" constant="42" id="UEc-Ed-J5U"/>
-                            <constraint firstItem="LXj-kq-8hc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="69" id="d1f-j0-vSz"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LXj-kq-8hc" secondAttribute="trailing" constant="99" id="rXH-Fu-cAS"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LXj-kq-8hc" secondAttribute="trailing" constant="99" id="zAS-K0-Clf"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -99,7 +91,7 @@
         <!--Log In Page-->
         <scene sceneID="KNh-RK-U9V">
             <objects>
-                <viewController id="LIy-lB-hPD" customClass="LogInPage" customModule="lustre" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LIy-lB-hPD" customClass="LogInPage" customModule="shahad" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B82-9B-PCB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -125,7 +117,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.63188564780000001" green="0.79320877789999999" blue="0.70979517700000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="NEXT">
+                                <state key="normal" title="shahad">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <state key="highlighted">
@@ -173,7 +165,7 @@
         <!--Conformed Password Page-->
         <scene sceneID="u1K-gw-d9p">
             <objects>
-                <viewController id="uIB-Jy-4VP" customClass="ConformedPasswordPage" customModule="lustre" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="uIB-Jy-4VP" customClass="ConformedPasswordPage" customModule="shahad" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PYQ-iu-861">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -243,7 +235,7 @@
         <!--Add Child Page-->
         <scene sceneID="rmT-wZ-ulJ">
             <objects>
-                <viewController id="ExD-Rk-iYn" customClass="AddChildPage" customModule="lustre" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ExD-Rk-iYn" customClass="AddChildPage" customModule="shahad" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FRt-dv-okY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -313,7 +305,7 @@
         <!--REGISTER3-->
         <scene sceneID="j7O-If-FQB">
             <objects>
-                <viewController id="Zap-CZ-DEr" customClass="REGISTER3" customModule="lustre" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Zap-CZ-DEr" customClass="REGISTER3" customModule="shahad" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cCC-5V-CLc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -367,13 +359,14 @@
         <!--View Controller-->
         <scene sceneID="43q-YZ-syQ">
             <objects>
-                <viewController id="hjG-SI-jgN" customClass="REGISTER2ViewController" customModule="lustre" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hjG-SI-jgN" customClass="REGISTER2ViewController" customModule="shahad" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NvV-aI-Nt6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YNp-SD-b5y">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YNp-SD-b5y">
                                 <rect key="frame" x="84" y="527" width="246" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.63188564780000001" green="0.79320877789999999" blue="0.70979517700000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="NEXT">
@@ -389,16 +382,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="YUm-xa-xM9" firstAttribute="bottom" secondItem="YNp-SD-b5y" secondAttribute="bottom" constant="235" id="0su-tJ-dn9"/>
-                            <constraint firstItem="YUm-xa-xM9" firstAttribute="trailing" secondItem="YNp-SD-b5y" secondAttribute="trailing" constant="84" id="4S4-b4-vYU"/>
-                            <constraint firstItem="YNp-SD-b5y" firstAttribute="top" secondItem="YUm-xa-xM9" secondAttribute="top" constant="118" id="Bsp-LF-1Bo"/>
-                            <constraint firstItem="YNp-SD-b5y" firstAttribute="leading" secondItem="YUm-xa-xM9" secondAttribute="leading" constant="84" id="C1S-kl-ggA"/>
-                            <constraint firstItem="YNp-SD-b5y" firstAttribute="leading" secondItem="YUm-xa-xM9" secondAttribute="leading" constant="84" id="fHe-WN-6y3"/>
-                            <constraint firstItem="YNp-SD-b5y" firstAttribute="top" secondItem="YUm-xa-xM9" secondAttribute="top" constant="527" id="glE-fP-370"/>
-                            <constraint firstItem="YUm-xa-xM9" firstAttribute="bottom" secondItem="YNp-SD-b5y" secondAttribute="bottom" constant="239" id="hpA-r2-fjP"/>
-                            <constraint firstItem="YUm-xa-xM9" firstAttribute="trailing" secondItem="YNp-SD-b5y" secondAttribute="trailing" constant="84" id="s6f-M6-5HZ"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="YUm-xa-xM9"/>
                     </view>
                     <navigationItem key="navigationItem" id="yhl-sr-9AZ"/>
@@ -413,7 +396,7 @@
         <!--profileChildren-->
         <scene sceneID="A2W-eH-3oa">
             <objects>
-                <viewController title="profileChildren" id="bMB-kc-VY8" customClass="ProfileChildren" customModule="lustre" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="profileChildren" id="bMB-kc-VY8" customClass="ProfileChildren" customModule="shahad" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jiH-jP-0Si">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -494,7 +477,7 @@
         <!--Current My Program-->
         <scene sceneID="gHh-AJ-Wv2">
             <objects>
-                <viewController id="GNf-GL-Qs6" customClass="CurrentMyProgram" customModule="lustre" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="GNf-GL-Qs6" customClass="CurrentMyProgram" customModule="shahad" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U6c-Kd-kN3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -531,7 +514,7 @@
         <!--profileFriends-->
         <scene sceneID="yDh-3w-h3R">
             <objects>
-                <viewController title="profileFriends" id="r0Q-05-kI2" customClass="ProfileChildren" customModule="lustre" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="profileFriends" id="r0Q-05-kI2" customClass="ProfileChildren" customModule="shahad" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kzx-Ip-iYs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -612,14 +595,13 @@
         <!--History My Program-->
         <scene sceneID="Bry-U7-fXb">
             <objects>
-                <viewController title="History My Program" id="jzR-Cq-BCa" customClass="CurrentMyProgram" customModule="lustre" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="History My Program" id="jzR-Cq-BCa" customClass="CurrentMyProgram" customModule="shahad" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gZu-dJ-rBZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="sZM-BZ-uxc">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="sZM-BZ-uxc">
                                 <rect key="frame" x="20" y="121" width="369" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <segments>
                                     <segment title="CURRENT"/>
@@ -631,13 +613,21 @@
                                     <segue destination="GNf-GL-Qs6" kind="show" id="qUe-ye-LfN"/>
                                 </connections>
                             </segmentedControl>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6lg-3a-kyP">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6lg-3a-kyP">
                                 <rect key="frame" x="20" y="160" width="374" height="689"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="sZM-BZ-uxc" firstAttribute="leading" secondItem="6lg-3a-kyP" secondAttribute="leading" id="09R-k3-BgH"/>
+                            <constraint firstItem="sZM-BZ-uxc" firstAttribute="leading" secondItem="gZu-dJ-rBZ" secondAttribute="leadingMargin" id="4aj-kw-dX0"/>
+                            <constraint firstItem="sZM-BZ-uxc" firstAttribute="top" secondItem="7kl-Mj-OGm" secondAttribute="top" constant="121" id="Hop-TR-Qjb"/>
+                            <constraint firstItem="6lg-3a-kyP" firstAttribute="top" secondItem="sZM-BZ-uxc" secondAttribute="bottom" constant="8" id="Mtm-3K-I4H"/>
+                            <constraint firstItem="6lg-3a-kyP" firstAttribute="trailing" secondItem="gZu-dJ-rBZ" secondAttribute="trailingMargin" id="Osz-by-wts"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="6lg-3a-kyP" secondAttribute="bottom" constant="-41" id="eme-zJ-nAV"/>
+                            <constraint firstItem="7kl-Mj-OGm" firstAttribute="trailing" secondItem="sZM-BZ-uxc" secondAttribute="trailing" constant="25" id="yFO-uQ-45d"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="7kl-Mj-OGm"/>
                     </view>
                     <navigationItem key="navigationItem" id="9rS-wa-Uwb"/>
@@ -648,7 +638,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="S4g-iZ-cUy"/>
+        <segue reference="qUe-ye-LfN"/>
+        <segue reference="oTo-ld-Fdr"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.99612706900000003" green="0.93782168629999996" blue="0.64307826759999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>
