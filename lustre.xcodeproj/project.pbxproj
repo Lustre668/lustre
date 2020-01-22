@@ -20,6 +20,8 @@
 		B243DBDE23D64ACA00057C4F /* LogInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243DBDD23D64ACA00057C4F /* LogInPage.swift */; };
 		B243DBE023D6C2A700057C4F /* ConformedPasswordPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243DBDF23D6C2A700057C4F /* ConformedPasswordPage.swift */; };
 		B243DBE223D6C46500057C4F /* AddChildPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243DBE123D6C46500057C4F /* AddChildPage.swift */; };
+		D27CFC4823D7412700C67298 /* ProfileChildren.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27CFC4723D7412700C67298 /* ProfileChildren.swift */; };
+		D27CFC4A23D781DF00C67298 /* CurrentMyProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27CFC4923D781DF00C67298 /* CurrentMyProgram.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		B243DBDD23D64ACA00057C4F /* LogInPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPage.swift; sourceTree = "<group>"; };
 		B243DBDF23D6C2A700057C4F /* ConformedPasswordPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConformedPasswordPage.swift; sourceTree = "<group>"; };
 		B243DBE123D6C46500057C4F /* AddChildPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChildPage.swift; sourceTree = "<group>"; };
+		D27CFC4723D7412700C67298 /* ProfileChildren.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileChildren.swift; sourceTree = "<group>"; };
+		D27CFC4923D781DF00C67298 /* CurrentMyProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentMyProgram.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 				B211733F23D4F85B00C0EA46 /* Assets.xcassets */,
 				B211734123D4F85B00C0EA46 /* LaunchScreen.storyboard */,
 				B211734423D4F85B00C0EA46 /* Info.plist */,
+				D27CFC4723D7412700C67298 /* ProfileChildren.swift */,
+				D27CFC4923D781DF00C67298 /* CurrentMyProgram.swift */,
 			);
 			path = lustre;
 			sourceTree = "<group>";
@@ -277,8 +283,10 @@
 				B211733B23D4F85A00C0EA46 /* ViewController.swift in Sources */,
 				B243DBE023D6C2A700057C4F /* ConformedPasswordPage.swift in Sources */,
 				B243DBDA23D6268400057C4F /* REGISTER2ViewController.swift in Sources */,
+				D27CFC4823D7412700C67298 /* ProfileChildren.swift in Sources */,
 				B211733723D4F85A00C0EA46 /* AppDelegate.swift in Sources */,
 				B211733923D4F85A00C0EA46 /* SceneDelegate.swift in Sources */,
+				D27CFC4A23D781DF00C67298 /* CurrentMyProgram.swift in Sources */,
 				B243DBDE23D64ACA00057C4F /* LogInPage.swift in Sources */,
 				B243DBDC23D6324000057C4F /* REGISTER3.swift in Sources */,
 				B243DBE223D6C46500057C4F /* AddChildPage.swift in Sources */,
