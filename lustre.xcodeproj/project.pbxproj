@@ -15,6 +15,7 @@
 		B211734E23D4F85B00C0EA46 /* lustreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B211734D23D4F85B00C0EA46 /* lustreTests.swift */; };
 		B211735923D4F85B00C0EA46 /* lustreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B211735823D4F85B00C0EA46 /* lustreUITests.swift */; };
 		B23493A523D84C6700220230 /* REGISTER2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23493A423D84C6700220230 /* REGISTER2.swift */; };
+		B23493AB23D8A80500220230 /* Screen Shot 1441-05-26 at 10.46.28 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = B23493AA23D8A80500220230 /* Screen Shot 1441-05-26 at 10.46.28 PM.png */; };
 		B243DBDC23D6324000057C4F /* REGISTER3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243DBDB23D6324000057C4F /* REGISTER3.swift */; };
 		B243DBDE23D64ACA00057C4F /* LogInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243DBDD23D64ACA00057C4F /* LogInPage.swift */; };
 		B243DBE023D6C2A700057C4F /* ConformedPasswordPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243DBDF23D6C2A700057C4F /* ConformedPasswordPage.swift */; };
@@ -55,6 +56,7 @@
 		B211735823D4F85B00C0EA46 /* lustreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lustreUITests.swift; sourceTree = "<group>"; };
 		B211735A23D4F85B00C0EA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B23493A423D84C6700220230 /* REGISTER2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REGISTER2.swift; sourceTree = "<group>"; };
+		B23493AA23D8A80500220230 /* Screen Shot 1441-05-26 at 10.46.28 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 1441-05-26 at 10.46.28 PM.png"; path = "../../../Desktop/Screen Shot 1441-05-26 at 10.46.28 PM.png"; sourceTree = "<group>"; };
 		B243DBDB23D6324000057C4F /* REGISTER3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REGISTER3.swift; sourceTree = "<group>"; };
 		B243DBDD23D64ACA00057C4F /* LogInPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPage.swift; sourceTree = "<group>"; };
 		B243DBDF23D6C2A700057C4F /* ConformedPasswordPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConformedPasswordPage.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				B243DBDF23D6C2A700057C4F /* ConformedPasswordPage.swift */,
 				B243DBDB23D6324000057C4F /* REGISTER3.swift */,
 				B211733F23D4F85B00C0EA46 /* Assets.xcassets */,
+				B23493AA23D8A80500220230 /* Screen Shot 1441-05-26 at 10.46.28 PM.png */,
 				B211734123D4F85B00C0EA46 /* LaunchScreen.storyboard */,
 				B211734423D4F85B00C0EA46 /* Info.plist */,
 				D27CFC4723D7412700C67298 /* ProfileChildren.swift */,
@@ -252,6 +255,7 @@
 			files = (
 				B211734323D4F85B00C0EA46 /* LaunchScreen.storyboard in Resources */,
 				B211734023D4F85B00C0EA46 /* Assets.xcassets in Resources */,
+				B23493AB23D8A80500220230 /* Screen Shot 1441-05-26 at 10.46.28 PM.png in Resources */,
 				B211733E23D4F85A00C0EA46 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

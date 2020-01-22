@@ -10,6 +10,7 @@ import UIKit
 
 class ConformedPasswordPage: UIViewController {
 
+    @IBOutlet weak var BackButton: UIButton!
     @IBOutlet weak var Password: UITextField!
     
     @IBOutlet weak var ConformedPassword: UITextField!

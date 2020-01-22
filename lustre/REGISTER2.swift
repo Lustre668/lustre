@@ -14,6 +14,7 @@ class REGISTER2: UIViewController {
     @IBOutlet weak var FirstName: UITextField!
     
     
+    @IBOutlet weak var BackButton: UIButton!
     @IBOutlet weak var UserName: UITextField!
     
     @IBOutlet weak var Gender: UITextField!

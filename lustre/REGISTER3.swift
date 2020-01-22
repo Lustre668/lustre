@@ -10,7 +10,8 @@ import UIKit
 
 class REGISTER3: UIViewController {
     
-
+    @IBOutlet weak var BackButton: UIButton!
+    
    @IBOutlet weak var PhoneNumberField: UITextField!
       @IBOutlet weak var EmailField: UITextField!
       @IBOutlet weak var InputTextField: UITextField!

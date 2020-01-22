@@ -10,6 +10,7 @@ import UIKit
 
 class AddChildPage: UIViewController {
     
+    @IBOutlet weak var BackButton: UIButton!
     
     @IBOutlet weak var NameChild: UITextField!
     
