@@ -341,7 +341,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F5n-uC-XkB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-50" y="-2263"/>
+            <point key="canvasLocation" x="191" y="-2275"/>
         </scene>
         <!--REGISTER2-->
         <scene sceneID="i4l-KE-hkw">
@@ -374,12 +374,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" borderStyle="roundedRect" placeholder="FirstName" textAlignment="natural" minimumFontSize="17" id="wPu-de-hgh">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" borderStyle="roundedRect" placeholder="FirstName" minimumFontSize="17" id="wPu-de-hgh">
                                 <rect key="frame" x="20" y="285" width="185" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <rect key="contentStretch" x="0.10000000000000001" y="0.0" width="1" height="1"/>
                                 <edgeInsets key="layoutMargins" top="10" left="10" bottom="10" right="10"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" borderStyle="roundedRect" placeholder="LastName" textAlignment="natural" minimumFontSize="17" id="g2m-2o-Dhe">
@@ -755,11 +755,12 @@
         <image name="Screen Shot 1441-05-26 at 10.46.28 PM.png" width="63" height="55"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="oTo-ld-Fdr"/>
         <segue reference="qUe-ye-LfN"/>
-        <segue reference="SxN-6K-jj8"/>
+        <segue reference="NWO-BK-fhL"/>
+        <segue reference="oTo-ld-Fdr"/>
+        <segue reference="ehz-GS-NsC"/>
         <segue reference="YmU-uo-tOA"/>
-        <segue reference="gbi-hf-UrO"/>
+        <segue reference="kxE-GU-YJx"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.99612706900000003" green="0.93782168629999996" blue="0.64307826759999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>

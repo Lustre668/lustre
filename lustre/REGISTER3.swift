@@ -17,37 +17,38 @@ class REGISTER3: UIViewController {
       @IBOutlet weak var InputTextField: UITextField!
       
     @IBOutlet weak var NextPage: UIButton!
-    private var datePicker : UIDatePicker?
+    let datePicker = UIDatePicker()
       
       
-      override func viewDidLoad() {
-          super.viewDidLoad()
-          datePicker = UIDatePicker()
-        datePicker?.datePickerMode = .date
-        datePicker?.addTarget(self, action: #selector(REGISTER3.dateChanged(datePicker:)), for: .valueChanged)
-        let tapGesture = UITapGestureRecognizer(target:  self, action: #selector( REGISTER3.viewTapped(gestureRecognizer:)) )
-        view.addGestureRecognizer(tapGesture)
-        InputTextField.inputView = datePicker
-        // Do any additional setup after loading the view.
-    }
-    @objc func viewTapped( gestureRecognizer: UITapGestureRecognizer) {
-        view.endEditing(true)
-    }
-    
-    
-    
-    
-    
-    @objc func dateChanged( datePicker : UIDatePicker){
-        let dateFormatter = DateFormatter()
-        dateFormatter .dateFormat="MM/dd/yyyy"
-        InputTextField.text=dateFormatter.string(from: datePicker.date)
-        
-        view.endEditing(true)
-        
-        
-        
-    }
+      
+          override func viewDidLoad() {
+              super.viewDidLoad()
+              
+              InputTextField.inputView = datePicker
+              datePicker.datePickerMode = .date
+              let toolbar = UIToolbar()
+              toolbar.sizeToFit()
+              let doneButton = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(doneAction))
+              let flaxSpace = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
+              toolbar.setItems([flaxSpace,doneButton], animated: true)
+              InputTextField.inputAccessoryView = toolbar
+
+              // Do any additional setup after loading the view.
+          }
+          
+          @objc func doneAction(){
+              
+              getDateFromPicker()
+              view.endEditing(true)
+          }
+          func getDateFromPicker(){
+              
+               let dateFormatter = DateFormatter()
+                     dateFormatter .dateFormat="MM/dd/yyyy"
+              InputTextField.text=dateFormatter.string(from: datePicker.date)
+          }
+          
+          
     
     }
 
